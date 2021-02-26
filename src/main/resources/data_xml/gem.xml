@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fund xmlns="http://www.example.com/fund"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gemstone id="AAAAA">
+        <type>string</type>
+        <year>2005</year>
+        <size>-23698699999999.8</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>waxy</luster>
+        <cut>cabochon</cut>
+    </gemstone>
+    <gemstone id="AAAAB">
+        <type>string</type>
+        <year>1970</year>
+        <size>35682700000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>metallic</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone name="unnamed" id="AAAAC">
+        <type>string</type>
+        <year>1992</year>
+        <size>35908800000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>pearly</luster>
+        <cut>asscher</cut>
+    </gemstone>
+    <gemstone id="AAAAD">
+        <type>string</type>
+        <year>2026</year>
+        <size>34108200000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>adamantine</luster>
+        <cut>cabochon</cut>
+    </gemstone>
+    <gemstone name="unnamed" id="AAAAE">
+        <type>string</type>
+        <year>2026</year>
+        <size>22642300000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>vitreous</luster>
+        <cut>asscher</cut>
+    </gemstone>
+    <gemstone name="unnamed" id="AAAAF">
+        <type>string</type>
+        <year>1989</year>
+        <size>-8608099999999.76</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>adamantine</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone name="unnamed" id="AAAAG">
+        <type>string</type>
+        <year>1974</year>
+        <size>49322000000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>pearly</luster>
+        <cut>asscher</cut>
+    </gemstone>
+    <gemstone id="AAAAH">
+        <type>string</type>
+        <year>1996</year>
+        <size>10841500000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>waxy</luster>
+        <cut>pear</cut>
+    </gemstone>
+    <gemstone xsi:type="gemstone" name="unnamed" id="AAAAI">
+        <type>string</type>
+        <year>1979</year>
+        <size>7180100000000.24</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>metallic</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone xsi:type="gemstone" name="unnamed" id="AAAAJ">
+        <type>string</type>
+        <year>1973</year>
+        <size>32883600000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>metallic</luster>
+        <cut>round</cut>
+    </gemstone>
+    <gemstone xsi:type="gemstone" name="unnamed" id="AAABA">
+        <type>string</type>
+        <year>2024</year>
+        <size>37525500000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>adamantine</luster>
+        <cut>round</cut>
+    </gemstone>
+    <gemstone xsi:type="gemstone" id="AAABB">
+        <type>string</type>
+        <year>2026</year>
+        <size>12355000000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>waxy</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone id="AAABC">
+        <type>string</type>
+        <year>1981</year>
+        <size>-39176699999999.8</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>metallic</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone name="unnamed" id="AAABD">
+        <type>string</type>
+        <year>2014</year>
+        <size>-14161599999999.8</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>waxy</luster>
+        <cut>pear</cut>
+    </gemstone>
+    <gemstone name="unnamed" id="AAABE">
+        <type>string</type>
+        <year>1983</year>
+        <size>-35486699999999.8</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>translucent</transparency>
+        <luster>metallic</luster>
+        <cut>asscher</cut>
+    </gemstone>
+    <gemstone id="AAABF">
+        <type>string</type>
+        <year>1998</year>
+        <size>-8686099999999.76</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>translucent</transparency>
+        <luster>pearly</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone xsi:type="gemstone" name="unnamed" id="AAABG">
+        <type>string</type>
+        <year>1985</year>
+        <size>17310500000000.2</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>vitreous</luster>
+        <cut>asscher</cut>
+    </gemstone>
+    <gemstone xsi:type="gemstone" name="unnamed" id="AAABH">
+        <type>string</type>
+        <year>1984</year>
+        <size>4747500000000.24</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>transparent</transparency>
+        <luster>metallic</luster>
+        <cut>emerald</cut>
+    </gemstone>
+    <gemstone id="AAABI">
+        <type>string</type>
+        <year>2022</year>
+        <size>-43262099999999.8</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>translucent</transparency>
+        <luster>metallic</luster>
+        <cut>cabochon</cut>
+    </gemstone>
+    <gemstone id="AAABJ">
+        <type>string</type>
+        <year>1999</year>
+        <size>-15943199999999.8</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>vitreous</luster>
+        <cut>pear</cut>
+    </gemstone>
+</fund>

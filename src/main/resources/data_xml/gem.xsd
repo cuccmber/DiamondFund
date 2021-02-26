@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/fund"
+        xmlns:gmf="http://www.example.com/fund"
+        elementFormDefault="qualified">
+
+    <element name="fund">
+        <complexType>
+            <sequence>
+                <element ref="gmf:crystal" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="crystal">
+        <sequence>
+            <element name="type" type="string"/>
+            <element name="year" type="gYear"/>
+            <element name="size" type="double"/>
+            <element name="origin" type="string"/>
+            <element name="colour" type="string"/>
+            <element name="transparency" type="gmf:transparency-type"/>
+            <element name="luster" type="gmf:luster-type"/>
+        </sequence>
+        <attribute name="name" type="string" default="unnamed"/>
+        <attribute name="id" use="required" type="ID"/>
+    </complexType>
+
+    <complexType name="gemstone">
+        <complexContent>
+            <extension base="gmf:crystal">
+                <sequence>
+                    <element name="cut" type="gmf:cut-type"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    
+    <simpleType name="transparency-type">
+        <restriction base="string">
+            <enumeration value="opaque"/>
+            <enumeration value="translucent"/>
+            <enumeration value="transparent"/>
+        </restriction>
+    </simpleType>
+    
+    <simpleType name="luster-type">
+        <restriction base="string">
+            <enumeration value="adamantine"/>
+            <enumeration value="vitreous"/>
+            <enumeration value="pearly"/>
+            <enumeration value="waxy"/>
+            <enumeration value="metallic"/>
+            <enumeration value="resinous"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="cut-type">
+        <restriction base="string">
+            <enumeration value="cabochon"/>
+            <enumeration value="pear"/>
+            <enumeration value="asscher"/>
+            <enumeration value="round"/>
+            <enumeration value="emerald"/>
+        </restriction>
+    </simpleType>
+
+    <element name="crystal" type="gmf:crystal" abstract="true"/>
+    <element name="gemstone" type="gmf:gemstone" substitutionGroup="gmf:crystal"/>
+</schema>

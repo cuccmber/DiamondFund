@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fund xmlns="http://www.example.com/fund">
+    <gemstone name="a" id="id0001">
+        <type>string</type>
+        <year>2005</year>
+        <size>1.1</size>
+        <origin>string</origin>
+        <colour>string</colour>
+        <transparency>opaque</transparency>
+        <luster>waxy</luster>
+        <cut>cabochon</cut>
+    </gemstone>
+</fund>
